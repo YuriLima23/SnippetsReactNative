@@ -1,0 +1,51 @@
+{
+	"Create view react native": {
+		"scope": "javascript,typescript",
+		"prefix": "vw",
+		"body": [
+			"<View style={{}}>",
+			"	$1",
+			"</View>",
+			"$2"
+		],
+		"description": "Create a view react native"
+	},
+	"Create text react native": {
+		"scope": "javascript,typescript",
+		"prefix": "tx",
+		"body": [
+			"<Text style={{}}>$1</Text>",
+			"$2"
+		],
+		"description": "Create text react native"
+	},
+	"Create Touachble react native": {
+		"scope": "javascript,typescript",
+		"prefix": "to",
+		"body": [
+			"<TouchableHighlight style={{}} onPress ={() => null} >",
+			"	<Text style={{}}>$1</Text>",
+			"</TouchableHighlight>",
+			"$2"
+		],
+		"description": "Create Touachble react native"
+	},
+	"Create FlatList react native": {
+		"scope": "javascript,typescript",
+		"prefix": "fl",
+		"body": [
+			"<FlatList data={$1} renderItem={$2} keyExtractor={item => item.id}/>",
+			"$2"
+		],
+		"description": "Create FlatList react native"
+	},
+	"Create TextInput react native": {
+		"scope": "javascript,typescript",
+		"prefix": "ti",
+		"body": [
+			"<TextInput style={{}} value={$1} onChangeText={(e) => $2(e)}/>",
+			"$2"
+		],
+		"description": "Create FlatList react native"
+	}
+}
